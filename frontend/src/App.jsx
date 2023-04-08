@@ -19,7 +19,7 @@ function App() {
     alchohol: '',
     treatmentSource: ''
   });
-  const [response, setResponse] = useState(28)
+  const [response, setResponse] = useState(0)
   const handleSubmit = async (e) => {
     e.preventDefault()
     // Send data to backend or perform other actions
